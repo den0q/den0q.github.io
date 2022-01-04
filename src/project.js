@@ -1023,12 +1023,12 @@ window.__require = function e(t, n, o) {
           }).union().repeatForever().start()
         }, t.prototype.update = function (e) {
         }, t.prototype.adsButtonFunc2 = function () {
-          if (adLink) {
-            window.location.href = adLink
+          if (false) {
+            window.location.href = false
           }
         }, t.prototype.bannerButtonFunc = function () {
-          if (adLink) {
-            window.location.href = adLink
+          if (false) {
+            window.location.href = false
           }
         }, t.prototype.ShowFailedUi = function (e, t) {
           var n = this;
@@ -2000,7 +2000,7 @@ window.__require = function e(t, n, o) {
         }, t.prototype.update = function (e) {
           this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
         }, t.prototype.adsButtonFunc = function () {
-          if (clickChangeFruit) {
+          if (true) {
             if(gameFunction.default.Instance.targetFruit) {
               gameFunction.default.Instance.targetFruit.destroy();
               gameFunction.default.Instance.targetFruit = null;
@@ -2009,8 +2009,8 @@ window.__require = function e(t, n, o) {
             return;
           }
 
-          if (adLink) {
-            window.location.href = adLink;
+          if (false) {
+            window.location.href = false;
           }
         }, t.prototype.TestPasslevel = function () {
           var e = this;

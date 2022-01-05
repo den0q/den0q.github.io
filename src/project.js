@@ -3476,7 +3476,7 @@ window.__require = function e(t, n, o) {
           && this.endCtrl
           && 0 == this.endOne
           && this.testEndDJS > 3
-          && false) { // 无敌模式
+          && true) { // 无敌模式
             a.default.GameUpdateCtrl = !1, a.default.playerTouch = !1;
             for (var n = 0; n < cc.find("Canvas/fruitNode").children.length; n++) cc.find("Canvas/fruitNode").children[n].removeComponent(cc.PhysicsCircleCollider), cc.find("Canvas/fruitNode").children[n].removeComponent(cc.RigidBody);
             this.node.color = cc.Color.RED, cc.tween(this.node).to(.3, {
